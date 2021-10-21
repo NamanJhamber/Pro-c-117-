@@ -7,6 +7,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 
+df=pd.read_csv("heart.csv")
+
 age=df["age"]
 heart_attack=df['target']
 
